@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 
-const User = require("./config");
+const User = require("./config/config");
 const { pool } = require("./config/sql-config")
 const controllers = require("./controllers/base.controller")
 
